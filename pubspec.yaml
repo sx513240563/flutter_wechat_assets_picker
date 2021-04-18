@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  extended_image: ^4.0.1
+  #extended_image: ^4.0.1
+  extended_image: 
+    git:
+         url: https://github.com/sx513240563/extended_image.git
+         ref: 54848cd8a54bd6f51865f6c1bc96e7c343a02bbc
   photo_manager: ^1.1.3
   provider: ^5.0.0
   video_player: ^2.1.1
